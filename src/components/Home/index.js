@@ -9,23 +9,7 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const nameArray = ['r', 'i', 'k', 'a', 'n', 't']
 
   useEffect(() => {
     return setTimeout(() => {
@@ -53,16 +37,16 @@ const Home = () => {
               idx={15}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={22}
-            />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>2nd year Student of Masters specilization in AIML / eSports Caster
+          </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <Link to="/contact" className="flat-button">
+            ABOUT ME
+          </Link>
+
         </div>
         <Logo />
       </div>

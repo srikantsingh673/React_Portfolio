@@ -90,20 +90,18 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Bankmen's Colony
           <br />
-          Serbia,
+          Near RN College <br />
+          Vaishali Bihar 844501 <br />
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
-          <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>srikantsingh673@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[25.683100, 85.219495]} zoom={17}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[25.683100, 85.219495]}>
+              <Popup>Srikant lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
